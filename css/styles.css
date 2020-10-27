@@ -1,0 +1,142 @@
+body {
+  font-size: 16px;
+  background-color: #e6e6e6;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+.container{
+  margin-left:0px;
+}
+
+#header-nav {
+  background-color: #a6a6a6;
+  border-radius: 0;
+  border:2px solid black;
+}
+
+.navbar{
+   margin-bottom: 0px;
+}
+
+.navbar-brand {
+  margin-bottom: 20px;
+}
+
+.navbar-brand h1 { 
+  color:black;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+
+.navbar-collapse{
+  border-style: none;
+}
+
+.navbar-toggle {
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.navbar-brand p span {
+  vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #000000;
+  background-color: yellow;
+  border-top: 1px solid black;
+}
+#nav-list a:hover {
+  background: violet;
+}
+#nav-list a span {
+  font-size: 1.1em;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #000000;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+#head-title{
+  width: 100%;
+}
+
+#menu-title-page{/*our menu*/
+  font-family:"Times New Roman", Times, serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+.main-content{/*lorem*/
+  position: relative;
+  background-color: #a6a6a6;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 30px; 
+  color:black;
+  border-style: none;
+  padding:40px 10px 10px 10px;
+}
+
+.main-content span{/*chicken*/
+  position: absolute;
+  top:0;
+  left: 0;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  width: 100%;
+  padding-top: 5px;
+
+}
+@media (min-width: 1200){
+  .main-content{
+    margin-right: 15px;
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 768) and (max-width: 1199px){
+  .navbar-brand{
+    margin-top: 10px; 
+    background-color: white;
+  }
+  .main-content{
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+   
+}
+
+@media (max-width: 767px){
+  .navbar-brand{
+    margin-bottom: 0px;   
+  }
+  .navbar-brand h1 {
+    font-size: 20px;
+  }
+  .navbar-collapse .navbar-nav{ 
+    margin-bottom: 0px;
+  }
+  .main-content{
+    margin-right: 60px;
+    margin-left: 60px;
+  }
+  
+}
+/* END HEADER */
+
