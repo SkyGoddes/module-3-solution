@@ -75,21 +75,20 @@ body {
 #menu-title-page{/*our menu*/
   font-family:"Times New Roman", Times, serif;
   font-size: 1.5em;
+  color: #F38DF5;
   font-weight: bold;
-  text-align: center;
-  vertical-align: middle;
 }
 
 
 .main-content{/*lorem*/
   position: relative;
   background-color: #a6a6a6;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 30px; 
+  margin:30px 10px 30px 10px;
   color:black;
   border-style: none;
   padding:40px 10px 10px 10px;
+  height: 1000px;
+  overflow: auto;
 }
 
 .main-content span{/*chicken*/
@@ -105,8 +104,8 @@ body {
 }
 @media (min-width: 1200){
   .main-content{
-    margin-right: 15px;
-    margin-left: 20px;
+    margin-right: 20px;
+    margin-left: 40px;
   }
 }
 
